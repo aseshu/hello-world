@@ -22,11 +22,10 @@
   </modules>
 
   <distributionManagement>
-    <site>
-      <id>site-server</id>
-      <name>Test Project Site</name>
-      <url>file:///tmp/maven-project-site</url>
-    </site>
+    <snapshotRepository>
+      <id>maven-snapshot</id>
+      <url>file:///tmp/maven-project-site/</url>
+    </snapshotRepository>
   </distributionManagement>
 
   <build>
